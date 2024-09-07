@@ -31,9 +31,9 @@ class Solution{
       cout<<endl;
     }
 };
-int main() {
-  Solution obj;
-  vector<int>arr={2,5,1,0,3,4};
-  obj.sortArray(arr);
-  obj.printArray(arr);
-}
+// int main() {
+//   Solution obj;
+//   vector<int>arr={2,5,1,0,3,4};
+//   obj.sortArray(arr);
+//   obj.printArray(arr);
+// }
