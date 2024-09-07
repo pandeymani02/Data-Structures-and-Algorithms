@@ -9,7 +9,7 @@ class Solution{
         arr.push_back(temp);
         return;
       }
-      int val=arr[arr.size()-1];
+      int val=arr[arr.size()-1];//commenting some stuff
       arr.pop_back();
       insertArray(arr,temp);
       arr.push_back(val);
