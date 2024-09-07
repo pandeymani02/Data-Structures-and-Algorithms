@@ -6,7 +6,7 @@ private:
     void f(string curr, int maxLen, bool flag, vector<string>&ans){
         if(curr.length() == maxLen){
             ans.push_back(curr);
-            return;
+            return;//
         }
         f(curr + '0', maxLen, 1, ans);
         if(flag){
