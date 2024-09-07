@@ -21,21 +21,21 @@ public:
     }
   }
 };
-int main() {
-  Solution obj;
-  stack<int> st;
-  int n;
-  cin >> n;
-  while (n--) {
-    int x;
-    cin >> x;
-    st.push(x);
-  }
-  obj.sortStack(st);
-  while (!st.empty()) {
-    int top = st.top();
-    st.pop();
-    cout << top << endl;
-  }
-  return 0;
-}
+// int main() {
+//   Solution obj;
+//   stack<int> st;
+//   int n;
+//   cin >> n;
+//   while (n--) {
+//     int x;
+//     cin >> x;
+//     st.push(x);
+//   }
+//   obj.sortStack(st);
+//   while (!st.empty()) {
+//     int top = st.top();
+//     st.pop();
+//     cout << top << endl;
+//   }
+//   return 0;
+// }
