@@ -6,7 +6,7 @@ class Solution{
   public:
     void insertArray(vector<int>&arr,int temp){
       if(arr.size()==0 || arr[arr.size()-1]<=temp){
-        arr.push_back(temp);
+        arr.push_back(temp);//
         return;
       }
       int val=arr[arr.size()-1];//commenting some stuff

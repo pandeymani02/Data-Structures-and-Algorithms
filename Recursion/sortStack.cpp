@@ -10,7 +10,7 @@ public:
       st.pop();
       sortedInsert(st, element);
       st.push(top_element);
-    }
+    }//
   }
   void sortStack(stack<int> &st) {
     if (!st.empty()) {

@@ -36,7 +36,7 @@ private:
         insertAtBottom(St, element);
 
         // Step 3: Push the popped element back on the stack
-        St.push(top);
+        St.push(top);//A
     }
 };
 // int main(){
