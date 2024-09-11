@@ -24,6 +24,7 @@ public:
     vector<vector<int>> ans;
     vector<int> build;
     solve(ans, nums, 0, build);
+      //returning the build vector
     return ans;
   }
 };

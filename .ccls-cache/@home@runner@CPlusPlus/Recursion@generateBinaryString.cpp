@@ -6,7 +6,7 @@ private:
     void f(string curr, int maxLen, bool flag, vector<string>&ans){
         if(curr.length() == maxLen){
             ans.push_back(curr);
-            return;//
+            return;// 
         }
         f(curr + '0', maxLen, 1, ans);
         if(flag){
@@ -22,31 +22,31 @@ public:
         return ans;
     }
 };
-int main(){
-    int T;
-    cin>>T;
-    while(T--){
-        int N;
-        cin>>N;
-        stack<int> St;
-        for(int i=0;i<N;i++){
-            int x;
-            cin>>x;
-            St.push(x);
-        }
-        Solution ob;
-        ob.Reverse(St);
-        vector<int>res;
-        while(St.size())
-        {
-            res.push_back(St.top());
-            St.pop();
-        }
-        for(int i = res.size()-1;i>=0;i--)
-        {
-            cout<<res[i]<<" ";
-        }
+// int main(){
+//     int T;
+//     cin>>T;
+//     while(T--){
+//         int N;
+//         cin>>N;
+//         stack<int> St;
+//         for(int i=0;i<N;i++){
+//             int x;
+//             cin>>x;
+//             St.push(x);
+//         }
+//         Solution ob;
+//         ob.Reverse(St);
+//         vector<int>res;
+//         while(St.size())
+//         {
+//             res.push_back(St.top());
+//             St.pop();
+//         }
+//         for(int i = res.size()-1;i>=0;i--)
+//         {
+//             cout<<res[i]<<" ";
+//         }
 
-        cout<<endl;
-    }
-}
+//         cout<<endl;
+//     }
+// }

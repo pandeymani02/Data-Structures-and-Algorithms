@@ -21,16 +21,16 @@ vector < vector < int >> combinationSum2(vector < int > & candidates, int target
   findCombination(0, target, candidates, ans, ds);
   return ans;
 }
-int main() {
-  vector<int> v{10,1,2,7,6,1,5};
-  vector < vector < int >> comb = combinationSum2(v, 8);
-  cout << "[ ";
-  for (int i = 0; i < comb.size(); i++) {
-    cout << "[ ";
-    for (int j = 0; j < comb[i].size(); j++) {
-      cout << comb[i][j] << " ";
-    }
-    cout << "]";
-  }
-  cout << " ]";
-}
+// int main() {
+//   vector<int> v{10,1,2,7,6,1,5};
+//   vector < vector < int >> comb = combinationSum2(v, 8);
+//   cout << "[ ";
+//   for (int i = 0; i < comb.size(); i++) {
+//     cout << "[ ";
+//     for (int j = 0; j < comb[i].size(); j++) {
+//       cout << comb[i][j] << " ";
+//     }
+//     cout << "]";
+//   }
+//   cout << " ]";
+// }
